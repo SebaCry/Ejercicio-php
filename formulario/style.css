@@ -1,0 +1,150 @@
+body {
+    margin: 0;
+    font-family: 'system-ui', sans-serif;
+    background: #f8f8f8;
+  }
+  
+  header {
+    background: #0052cc;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+  }
+  
+  header nav a {
+    color: white;
+    margin: 0 1rem;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .logo {
+    font-weight: bold;
+    font-size: 1.5rem;
+  }
+  
+  .hero {
+    display: flex;
+    flex-wrap: wrap;
+    background: white;
+    padding: 2rem;
+  }
+  
+  .left-content {
+    flex: 1;
+    padding: 2rem;
+  }
+  
+  .left-content h1 {
+    font-size: 2rem;
+  }
+  
+  .left-content h1 span {
+    color: #0052cc;
+  }
+  
+  .left-content p {
+    margin-top: 1rem;
+    font-size: 1.2rem;
+    color: #333;
+  }
+  
+  .left-content .image-box {
+    margin-top: 2rem;
+  }
+  
+  .left-content .image-box img {
+    width: 100%;
+    border-radius: 8px;
+  }
+  
+  .left-content .image-box span {
+    display: inline-block;
+    margin-top: 0.5rem;
+    background: #0052cc;
+    color: white;
+    padding: 0.3rem 1rem;
+    font-size: 0.9rem;
+  }
+  
+  .right-content {
+    flex: 1;
+    background: #0052cc;
+    color: white;
+    padding: 2rem;
+    position: relative;
+  }
+  
+  .right-content::after {
+    content: "";
+    background: rgba(0,0,0,0.3);
+    position: absolute;
+    inset: 0;
+  }
+  
+  .contact-form {
+    position: relative;
+    background: white;
+    color: black;
+    padding: 2rem;
+    border-radius: 8px;
+    max-width: 400px;
+    margin: 0 auto;
+    margin-top: 2rem;
+    z-index: 2;
+  }
+  
+  .contact-form h2 {
+    font-size: 1.2rem;
+    color: #0052cc;
+    margin-bottom: 1rem;
+    text-align: center;
+  }
+  
+  .contact-form input,
+  .contact-form textarea {
+    width: 100%;
+    padding: 0.8rem;
+    margin-bottom: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .contact-form button {
+    background: black;
+    color: white;
+    border: none;
+    padding: 0.8rem;
+    width: 100%;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .side-button {
+    position: absolute;
+    top: 50%;
+    right: 0;
+    transform: translateY(-50%);
+    writing-mode: vertical-rl;
+    background: black;
+    color: white;
+    padding: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  
+  @media screen and (max-width: 768px) {
+    .hero {
+      flex-direction: column;
+    }
+    .right-content {
+      padding: 1rem;
+    }
+    .contact-form {
+      margin-top: 1rem;
+    }
+  }
+  
