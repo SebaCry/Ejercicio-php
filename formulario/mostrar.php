@@ -20,6 +20,7 @@ $resultado = $conexion->query($sql);
             <th>Nombre</th>
             <th>Email</th>
             <th>Teléfono</th>
+            <th>Mensaje</th>
         </tr>
         <?php while ($fila = $resultado->fetch_assoc()) { ?>
             <tr>
@@ -27,6 +28,7 @@ $resultado = $conexion->query($sql);
                 <td><?= $fila["nombre"] ?></td>
                 <td><?= $fila["email"] ?></td>
                 <td><?= $fila["telefono"] ?></td>
+                <td><?= $fila["mensaje"] ?></td>
             </tr>
         <?php } ?>
     </table>
