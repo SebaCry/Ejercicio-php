@@ -17,6 +17,9 @@
         <label for="telefono">Teléfono:</label>
         <input type="text" name="telefono" required>
         <br>
+        <label for="mensaje">Mensaje:</label>
+        <input type="text" name="mensaje" required>
+        <br>
         <button type="submit">Enviar</button>
     </form>
     <br>
