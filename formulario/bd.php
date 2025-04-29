@@ -1,11 +1,9 @@
 <?php
-
-$host = 'localhost';
-$user = 'root';
-$password = 'root'; // La contraseña está vacía por defecto en XAMPP
-$dbname = 'db_formulario';
+$host = "localhost"
+$user = "root";
+$password = "root";
+$dbname = "db_formulario";
 $port = 3307;
-
 
 $conexion = new mysqli($host, $user, $password, $dbname, $port);
 
