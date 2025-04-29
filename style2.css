@@ -151,7 +151,7 @@ input, textarea {
     border-radius: 5px;
   }
   
-  .side-button {
+.side-button {
     position: absolute;
     top: 50%;
     right: 0;
@@ -162,7 +162,18 @@ input, textarea {
     padding: 1rem;
     font-weight: bold;
     cursor: pointer;
-  }
+}
+
+.form-2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 6rem;
+}
+
+
+
   
   @media screen and (max-width: 768px) {
     .hero {
