@@ -89,7 +89,7 @@ input, textarea {
   
 .right-content {
   flex: 1;
-  background-image: url('/ejerciciophp/Ejercicio-php/img/img1.png');
+  background-image: url('/ejerciciophp/Ejercicio-php/img/ig1.png');
   background-size: cover;
   background-position: center; 
   background-repeat: no-repeat;
@@ -175,4 +175,156 @@ input, textarea {
       margin-top: 1rem;
     }
   }
+
+  .container{
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 8rem 20px;
+}
+
+.header{
+    margin-bottom: 30px;
+}
+
+.titulo{
+    font-size: 28px;
+    font-weight: bold;
+    color: #222;
+    margin-bottom: 5px;
+}
+
+.subtitulo{
+    font-size: 28px;
+    font-weight: bold;
+    color: #0066cc;
+    margin-bottom: 40px;
+}
+
+.container-servicios{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.servicio{
+    flex: 1;
+    min-width: 250px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.icon {
+    width: 80px;
+    height: 80px;
+    margin: 0 auto 10px;
+}
+
+.icon img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.servicio-tit{
+    font-size: 14px;
+    color: #0066cc;
+    margin-bottom: 10px;
+    font-weight: 500;
+}
+
+.acerca {
+    display: flex;
+    background: linear-gradient(to right, #eaeaea 10%, #0a4cb4 10%);
+    min-height: 100vh;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+  }
   
+  .contenido {
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    background-color: 325aa9;
+    color: white;
+    padding: 30px;
+    max-width: 1000px;
+    border-radius: 8px;
+    box-shadow: 0 0 20px rgba(0,0,0,0.2);
+  }
+  
+  .image-equipo {
+    flex: 1;
+    margin-right: 20px;
+  }
+  
+  .image-equipo img {
+    width: 100%;
+    border-radius: 6px;
+    object-fit: cover;
+    padding-top: 2rem;
+  }
+  
+  .text-conten {
+    flex: 2;
+  }
+  
+  .image-equipo h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+    text-align: end;
+  }
+  
+  .text-acerca p {
+    font-size: 14px;
+    line-height: 1.6;
+  }
+  
+  .banner {
+    font-family: Arial, Helvetica, sans-serif;
+    max-width: 800px;
+    margin: auto;
+    padding: 3rem 0;
+    text-align: left;
+  }
+  
+  .banner h2 {
+    font-size: 24px;
+    font-weight: 700;
+  }
+  
+  .banner h2 span {
+    color: #0a4cb4;
+  }
+  
+  .button {
+    background-color: #0a4cb4;
+    color: white;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 5px;
+    float: right;
+    font-size: 14px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .button:hover {
+    background-color: #083b91;
+  }
+  
+  .banner p {
+    font-size: 15px;
+    margin-top: 40px;
+    line-height: 1.6;
+  }
+  
+  .banner a {
+    color: #0a4cb4;
+    font-weight: bold;
+    text-decoration: none;
+  }
+  
+  .banner a:hover {
+    text-decoration: underline;
+  }
