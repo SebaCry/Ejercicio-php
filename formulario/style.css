@@ -89,7 +89,7 @@ input, textarea {
   
 .right-content {
   flex: 1;
-  background-image: url('/ejerciciophp/Ejercicio-php/img/ig1.png');
+  background-image: url('../img/img1.png');
   background-size: cover;
   background-position: center; 
   background-repeat: no-repeat;
@@ -328,3 +328,73 @@ input, textarea {
   .banner a:hover {
     text-decoration: underline;
   }
+
+.container-3 {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  grid-template-columns: repeat(2, 1fr);
+  width: 100%;
+  border: #0052c0 solid 1px;
+}
+
+.info-contacto {
+  margin: 2rem;
+  padding: 30px;
+  background-color: #ffffff;
+}
+
+.formulario-2 {
+  background-color: #f1f3f8;
+  padding: 30px;
+}
+
+.titulo-form-2 {
+  font-size: 32px;
+  font-weight: bold;
+  color: #222;
+  margin-bottom: 30px;
+}
+
+.info-item {
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.icon-contact {
+  margin-right: 10rem;
+  font-size: 30px;
+  color: #0052c0;
+  min-width: 20px;
+}
+
+.input-form-2 {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.btn-enviar {
+  background-color: #0066ff;
+  color: white;
+  border: none;
+  padding: 10px 40px;
+  font-size: 14px;
+  font-weight: bold;
+  cursor: pointer;
+  display: block;
+  margin: 0 auto;
+}
+.instrucciones {
+  color: #0066ff;
+  font: bold;
+  margin-bottom: 20px;
+  line-height: 1.5;
+  font-size: 2rem;
+  text-align: center;
+}
